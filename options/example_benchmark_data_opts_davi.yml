@@ -1,0 +1,10 @@
+# live split 1 test
+live-split1:
+  name: LIVEC
+  type: LIVEChallengeDataset
+  dataroot_target: './datasets/LIVEInTheWild'
+  meta_info_file: './datasets/meta_info/meta_info_LIVEChallengeDataset.csv'
+  # split_file: './datasets/train_split_info/livechallenge_seed123.pkl'
+  # split_index: 1
+  # phase: val
+  # dmos_max: 100

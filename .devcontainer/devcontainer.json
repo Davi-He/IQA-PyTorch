@@ -1,13 +1,16 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "Ubuntu",
+	"name": "Ubuntu-gpus-iqa-pytorch",
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"features": {
 		"ghcr.io/devcontainers/features/nvidia-cuda:1": {},
 		"ghcr.io/devcontainers/features/python:1": {}
-	}
-
+	},
+	"runArgs": [
+		"--gpus",
+		"all"
+	]
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 

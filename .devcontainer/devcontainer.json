@@ -10,6 +10,10 @@
 	"runArgs": [
 		"--gpus",
 		"all"
+	],
+	"mounts": [
+		"source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home,type=bind,consistency=cached",
+		"source=/NAS,target=/NAS,type=bind,consistency=cached"
 	]
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

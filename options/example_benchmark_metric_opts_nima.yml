@@ -1,0 +1,6 @@
+# for example, psnr with y channel
+nima:
+  metric_opts:
+    type: NIMA
+    # test_y_channel: true
+  metric_mode: NR

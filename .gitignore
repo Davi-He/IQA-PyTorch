@@ -7,7 +7,7 @@ tb_logger_archived/*
 wandb/*
 tmp/*
 tmp*
-.vscode*
+# .vscode*
 *.sh
 
 *.DS_Store
